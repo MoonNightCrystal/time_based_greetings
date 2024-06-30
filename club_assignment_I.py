@@ -1,5 +1,7 @@
 '''Objective: To greet user based on the time of day
-To install the pymsgbox module return the following in the terminal: pip/pip3 install PyMsgBox'''
+To install the pymsgbox module return the following in the terminal: pip/pip3 install PyMsgBox
+Please refer to the ReadMe.md file for a detailed explanation of code'''
+
 from pymsgbox import *
 import pymsgbox as p
 import time as t #pre installed in python
