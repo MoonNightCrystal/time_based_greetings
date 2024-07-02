@@ -86,9 +86,9 @@ elif clock > "12:00" and clock < "18:00":
     greet(afternoon)
     num = r.randint(0, len(keys))
 
-    alert(text = keys[num] + "! That is good afternoon in " + lang[num] + "! Time to catch up, it is already afternoon! Todat's date is " + date + " " + month + ", " + year + ". Let's go!", title = "Wake up sleepyhead!", button = p.OK_TEXT)
+    alert(text = keys[num] + "! That is good afternoon in " + lang[num] + "! Time to catch up, it is already afternoon! Today's date is " + date + " " + month + ", " + year + ". Let's go!", title = "Wake up sleepyhead!", button = p.OK_TEXT)
 #night
-elif clock > "18:00" and clock < "00:00":
+elif clock > "18:00" and clock < "23:59":
     greet(night)
     num = r.randint(0, len(keys))
 
